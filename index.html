@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <header>
+        <h1> EASY APP </h1>
+    </header>
+    
+    <form action="adddata.php" method="post">
+        <div class="main">
+            <label for="task"> Task: </label><br>
+            <input type="text" name="task" id="task" required><br><br>
+            <input type="submit" value="Save">
+        </div>
+    </form>
+    
+    <hr color="Blue">
+    <h2> List of Tasks </h2>
+    <table>
+        <tr>
+            <th> Task</th>
+            <th> Status</th>
+            <th> Action</th>
+        </tr>
